@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: "David Levai's Digital Garden",
-  author: 'David Levai',
-  headerTitle: '@iamdavidlevai',
+  title: "Abdul Rozaqi",
+  author: 'Abdul Rozaqi',
+  headerTitle: '@rozaqiw',
   description:
     'Thoughts and resources about building software businesses and apps. Essays about freelancing, software business, productivity, working out, and how to go for be a better person every day.',
   language: 'en-us',

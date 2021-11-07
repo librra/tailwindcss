@@ -1,3 +1,5 @@
+import siteMetadata from '@/data/siteMetadata'
+import SocialIcon from '@/components/social-icons'
 import Image from '@/components/Image'
 import Link from '@/components/Link'
 
@@ -6,49 +8,16 @@ const Hero = () => {
     <section className="grid lg:grid-rows-1 lg:grid-cols-2 items-center justify-between py-8 min-w-screen">
       <div className="flex flex-col items-start justify-center w-full h-full pr-8 mb-10 xl:mb-0">
         <div className="flex flex-col md:flex-row justify-start items-center">
-          <Image
-            src="/static/images/avatar.png"
-            alt="An image about David Levai"
-            className="border-2 border-gray-200 rounded-full w-32 h-32 shadow-md"
-            width={72}
-            height={72}
-            layout="fixed"
-            quality={60}
-            priority
-            loading="eager"
-          />
-          <h2 className="ml-2 text-3xl font-extrabold font-display leading-tight sm:text-4xl sm:leading-none md:text-5xl lg:text-5xl xl:text-6xl">
-            Dávid Lévai
+          <h2 className="ml-0 text-3xl font-extrabold font-display leading-tight sm:text-4xl sm:leading-none md:text-5xl lg:text-5xl xl:text-6xl">
+            Abdul Rozaqi
           </h2>
         </div>
         <p className="mt-2 text-lg ">
-          Creating content about building IT businesses and production-ready apps.
+I have background in Informatics, Networking, and Application System at High School. I am very enthusiastic in the fields of Cyber Security, Cloud Computing and programming.
         </p>
         <p className="mt-8 text-sm text-gray-400 dark:text-gray-400">
-          Topics: React/Next.js, no-code, low-code, building businesses, building apps, freelancing,
-          productivity, working out, and some other millenial things.
+          Topics: Cloud Computing, Cyber Security, & Programming.
         </p>
-
-        <Link href="https://twitter.com/iamdavidlevai">
-          <a
-            className="my-3 font-bold text-sm leading-6 text-green-600 hover:text-gray-100 flex flex-row items-center"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <svg
-              fill="currentColor"
-              stroke="none"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              viewBox="0 0 24 24"
-              className="w-4 h-4 mr-1"
-            >
-              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
-            </svg>
-            I'm posting stuff on Twitter too
-          </a>
-        </Link>
       </div>
       <div className="py-12 grid grid-cols-1 gap-8 grid-rows-3">
         <div className="grid gap-8 items-start my-2">
